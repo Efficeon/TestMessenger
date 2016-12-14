@@ -13,11 +13,11 @@ public class WelcomeMessengerTest {
 
     @Test
     public void shouldGetDayPhase(){
-        assertEquals("night", WelcomeMessenger.getPartOfDay(1));
-        assertEquals("night", WelcomeMessenger.getPartOfDay(3));
-        assertEquals("morning", WelcomeMessenger.getPartOfDay(8));
-        assertEquals("day", WelcomeMessenger.getPartOfDay(15));
-        assertEquals("evening", WelcomeMessenger.getPartOfDay(21));
+        assertEquals("night", WelcomeMessenger.getPhaseOfDay(1));
+        assertEquals("night", WelcomeMessenger.getPhaseOfDay(3));
+        assertEquals("morning", WelcomeMessenger.getPhaseOfDay(8));
+        assertEquals("day", WelcomeMessenger.getPhaseOfDay(15));
+        assertEquals("evening", WelcomeMessenger.getPhaseOfDay(21));
     }
 
     @Test

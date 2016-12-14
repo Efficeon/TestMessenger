@@ -68,7 +68,7 @@ import java.util.ResourceBundle;
     // Gets
     private static String getWelcomeMessage() {
         Integer currentHour = getCurrentHour();
-        String bundleKey = getPartOfDay(currentHour);
+        String bundleKey = getPhaseOfDay(currentHour);
         logger.info("WelcomeMessenger message: " + bundleKey);
 
         return bundleKey;
@@ -93,19 +93,20 @@ import java.util.ResourceBundle;
         return Locale.getDefault();
     }
 
-    public static String getPartOfDay(Integer hour) {
-        String dayPhase;
+    //Receives phase of day
+    public static String getPhaseOfDay(Integer currentTime){
+        String phaseOfDay;
 
-        if ((hour < 6) || (hour == 23)) {
-            dayPhase = WELCOME_MESSAGE_NIGHT;
-        } else if (hour < 9) {
-            dayPhase = WELCOME_MESSAGE_MORNING;
-        } else if (hour < 19) {
-            dayPhase = WELCOME_MESSAGE_DAY;
+        if ((currentTime < 6) || (currentTime == 23)) {
+            phaseOfDay = WELCOME_MESSAGE_NIGHT;
+        } else if (currentTime < 9) {
+            phaseOfDay = WELCOME_MESSAGE_MORNING;
+        } else if (currentTime < 19) {
+            phaseOfDay = WELCOME_MESSAGE_DAY;
         } else {
-            dayPhase = WELCOME_MESSAGE_EVENING;
+            phaseOfDay = WELCOME_MESSAGE_EVENING;
         }
 
-        return dayPhase;
+        return phaseOfDay;
     }
 }
