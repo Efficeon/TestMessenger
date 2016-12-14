@@ -67,7 +67,7 @@ import java.util.ResourceBundle;
 
     //It returns the phase associated with the time of the day
     public static String getWelcomeMessage(){
-        Integer currentTime = getCurrentHour();
+        Integer currentTime = getCurrentTime();
         String  bundleKey = getPhaseOfDay(currentTime);
 
         logger.info("Welcome message: " + currentTime);
@@ -75,12 +75,14 @@ import java.util.ResourceBundle;
         return bundleKey;
     }
 
-    // Receives current local hour (for example, 10)
-    public static Integer getCurrentHour() {
+    //Receives real time
+    public static Integer getCurrentTime(){
         GregorianCalendar calendar = new GregorianCalendar();
-        Integer hour = calendar.get(Calendar.HOUR_OF_DAY);
-        logger.info("Current hour: " + hour);
-        return hour;
+        Integer currentTime = calendar.get(Calendar.HOUR_OF_DAY);
+
+        logger.info("Get real time: " + currentTime);
+
+        return currentTime;
     }
 
     public static ResourceBundle getWelcomeMessageResource(String bundleName) {

@@ -25,7 +25,7 @@ public class WelcomeMessengerTest {
         GregorianCalendar calendar = new GregorianCalendar();
         Integer hour = calendar.get(Calendar.HOUR_OF_DAY);
 
-        assertEquals(hour, WelcomeMessenger.getCurrentHour());
+        assertEquals(hour, WelcomeMessenger.getCurrentTime());
     }
 
     @Test
