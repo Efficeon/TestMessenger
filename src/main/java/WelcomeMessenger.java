@@ -65,11 +65,12 @@ import java.util.ResourceBundle;
         return text;
     }
 
-    // Gets
-    private static String getWelcomeMessage() {
-        Integer currentHour = getCurrentHour();
-        String bundleKey = getPhaseOfDay(currentHour);
-        logger.info("WelcomeMessenger message: " + bundleKey);
+    //It returns the phase associated with the time of the day
+    public static String getWelcomeMessage(){
+        Integer currentTime = getCurrentHour();
+        String  bundleKey = getPhaseOfDay(currentTime);
+
+        logger.info("Welcome message: " + currentTime);
 
         return bundleKey;
     }
