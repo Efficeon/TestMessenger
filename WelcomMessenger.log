@@ -1,0 +1,9 @@
+2016-12-14 19:28:51 INFO  WelcomeMessenger:31 - Application started
+2016-12-14 19:28:51 INFO  WelcomeMessenger:88 - Location: UA
+2016-12-14 19:28:51 INFO  WelcomeMessenger:81 - Current hour: 19
+2016-12-14 19:28:51 INFO  WelcomeMessenger:72 - WelcomeMessenger message: evening
+2016-12-14 19:28:51 INFO  WelcomeMessenger:64 - WelcomeMessenger message converted to encoding: UTF-8
+2016-12-14 19:28:51 INFO  WelcomeMessenger:54 - Console data : Good evening, World!
+2016-12-14 19:28:51 INFO  WelcomeMessenger:46 - Application finished successfully.
+2016-12-14 19:29:06 INFO  WelcomeMessenger:81 - Current hour: 19
+2016-12-14 19:29:06 INFO  WelcomeMessenger:88 - Location: UA

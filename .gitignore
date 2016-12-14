@@ -1,0 +1,19 @@
+#  Different files
+ *.zip
+ *.log
+ *.pdf
+ *.xls
+
+# Packages
+ *.jar
+ *.war
+ *.ear
+
+# Classes
+ *.class
+
+# .idea folder
+.idea/*
+
+# target folder
+target/*
