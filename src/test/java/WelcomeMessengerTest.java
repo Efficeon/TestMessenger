@@ -10,18 +10,16 @@ import static org.junit.Assert.assertThat;
 
 
 public class WelcomeMessengerTest {
-
     @Test
     public void shouldGetDayPhase(){
-        assertEquals("night", WelcomeMessenger.getPhaseOfDay(1));
-        assertEquals("night", WelcomeMessenger.getPhaseOfDay(3));
-        assertEquals("morning", WelcomeMessenger.getPhaseOfDay(8));
-        assertEquals("day", WelcomeMessenger.getPhaseOfDay(15));
-        assertEquals("evening", WelcomeMessenger.getPhaseOfDay(21));
+        assertEquals("night", WelcomeMessenger.getPhaseOfDay(2));
+        assertEquals("morning", WelcomeMessenger.getPhaseOfDay(7));
+        assertEquals("day", WelcomeMessenger.getPhaseOfDay(17));
+        assertEquals("evening", WelcomeMessenger.getPhaseOfDay(20));
     }
 
     @Test
-    public void shouldGetCurrentHour(){
+    public void shouldGetCurrentTime(){
         GregorianCalendar calendar = new GregorianCalendar();
         Integer hour = calendar.get(Calendar.HOUR_OF_DAY);
 
@@ -29,7 +27,7 @@ public class WelcomeMessengerTest {
     }
 
     @Test
-    public void shouldGetGreetingMessageResourceByLocale(){
+    public void shouldGetWelcomeMessageResourceByLocale(){
         Locale ru = new Locale("ru", "RU");
         ResourceBundle bundle = ResourceBundle.getBundle(WelcomeMessenger.LOCALE_RESOURCES_NAME, ru);
 
@@ -37,14 +35,13 @@ public class WelcomeMessengerTest {
         assertThat(bundle, is(not(bundleOriginal)));
     }
 
-    @Test(expected = MissingResourceException.class)
-    public void shouldGetGreetingResource(){
-        WelcomeMessenger.getMessageResource("test");
-    }
-
-
     @Test(expected = UnsupportedEncodingException.class)
     public void shouldConvertValue() throws UnsupportedEncodingException {
-        WelcomeMessenger.convertMessage("", "UTF-8859");
+        WelcomeMessenger.convertMessage("", "UTF-8859-1");
+    }
+
+    @Test(expected = MissingResourceException.class)
+    public void shouldGetWelcomeResource(){
+        WelcomeMessenger.getMessageResource("test");
     }
 }
