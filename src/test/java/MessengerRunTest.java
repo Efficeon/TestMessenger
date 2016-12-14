@@ -12,13 +12,13 @@ import static org.junit.Assert.assertThat;
  * @author Leonid Dubravsky
  */
 
-public class WelcomeMessengerTest {
+public class MessengerRunTest {
     @Test
     public void shouldGetDayPhase(){
-        assertEquals("night", WelcomeMessenger.getPhaseOfDay(2));
-        assertEquals("morning", WelcomeMessenger.getPhaseOfDay(7));
-        assertEquals("day", WelcomeMessenger.getPhaseOfDay(17));
-        assertEquals("evening", WelcomeMessenger.getPhaseOfDay(20));
+        assertEquals("night", MessengerRun.getPhaseOfDay(2));
+        assertEquals("morning", MessengerRun.getPhaseOfDay(7));
+        assertEquals("day", MessengerRun.getPhaseOfDay(17));
+        assertEquals("evening", MessengerRun.getPhaseOfDay(20));
     }
 
     @Test
@@ -26,25 +26,25 @@ public class WelcomeMessengerTest {
         GregorianCalendar calendar = new GregorianCalendar();
         Integer hour = calendar.get(Calendar.HOUR_OF_DAY);
 
-        assertEquals(hour, WelcomeMessenger.getCurrentTime());
+        assertEquals(hour, MessengerRun.getCurrentTime());
     }
 
     @Test
     public void shouldGetWelcomeMessageResourceByLocale(){
         Locale ru = new Locale("ru", "RU");
-        ResourceBundle bundle = ResourceBundle.getBundle(WelcomeMessenger.LOCALE_RESOURCES_NAME, ru);
+        ResourceBundle bundle = ResourceBundle.getBundle(MessengerRun.LOCALE_RESOURCES_NAME, ru);
 
-        ResourceBundle bundleOriginal = WelcomeMessenger.getMessageResource(WelcomeMessenger.LOCALE_RESOURCES_NAME);
+        ResourceBundle bundleOriginal = MessengerRun.getMessageResource(MessengerRun.LOCALE_RESOURCES_NAME);
         assertThat(bundle, is(not(bundleOriginal)));
     }
 
     @Test(expected = UnsupportedEncodingException.class)
     public void shouldConvertValue() throws UnsupportedEncodingException {
-        WelcomeMessenger.convertMessage("", "UTF-8859-1");
+        MessengerRun.convertMessage("", "UTF-8859-1");
     }
 
     @Test(expected = MissingResourceException.class)
     public void shouldGetWelcomeResource(){
-        WelcomeMessenger.getMessageResource("test");
+        MessengerRun.getMessageResource("test");
     }
 }

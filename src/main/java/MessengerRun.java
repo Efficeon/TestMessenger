@@ -13,7 +13,7 @@ import java.util.ResourceBundle;
  * @author Leonid Dubravsky
  * */
 
- public class WelcomeMessenger {
+ public class MessengerRun {
 
     //Message settings
     public static final String LOCALE_RESOURCES_NAME = "WelcomeMessages";
@@ -25,7 +25,7 @@ import java.util.ResourceBundle;
     public static final String ENCODING = "UTF-8";
 
     //Logger
-    final static Logger logger = Logger.getLogger(WelcomeMessenger.class);
+    final static Logger logger = Logger.getLogger(MessengerRun.class);
 
     public static void main(String[] args) {
 
@@ -53,7 +53,7 @@ import java.util.ResourceBundle;
         String welcomeMessage = getExactMessage(resourceBundle, bundleKey);
         String convertedMessage = convertMessage(welcomeMessage, ENCODING);
 
-        System.out.println(welcomeMessage + "\n");
+        System.out.println(convertedMessage + "\n");
         logger.info("Print to console: " + convertedMessage);
     }
 

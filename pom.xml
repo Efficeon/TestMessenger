@@ -45,7 +45,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>WelcomeMessenger</mainClass>
+                    <mainClass>MessengerRun</mainClass>
                 </configuration>
             </plugin>
 

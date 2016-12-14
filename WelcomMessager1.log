@@ -1,95 +1,95 @@
-2016-05-07 11:29:11 INFO  WelcomeMessenger:31 - Application started
-2016-05-07 11:29:11 INFO  WelcomeMessenger:88 - Location: US
-2016-05-07 11:29:11 INFO  WelcomeMessenger:81 - Current hour: 11
-2016-05-07 11:29:11 INFO  WelcomeMessenger:72 - WelcomeMessenger message: day
-2016-05-07 11:29:11 INFO  WelcomeMessenger:64 - WelcomeMessenger message converted to encoding: UTF-8
-2016-05-07 11:29:11 INFO  WelcomeMessenger:54 - Console data : Good day, World!
-2016-05-07 11:29:11 INFO  WelcomeMessenger:46 - Application finished successfully.
-2016-05-07 11:29:40 INFO  WelcomeMessenger:31 - Application started
-2016-05-07 11:29:40 INFO  WelcomeMessenger:88 - Location: US
-2016-05-07 11:29:40 INFO  WelcomeMessenger:81 - Current hour: 11
-2016-05-07 11:29:40 INFO  WelcomeMessenger:72 - WelcomeMessenger message: day
-2016-05-07 11:29:40 INFO  WelcomeMessenger:64 - WelcomeMessenger message converted to encoding: UTF-8
-2016-05-07 11:29:40 INFO  WelcomeMessenger:54 - Console data : Good day, World!
-2016-05-07 11:29:40 INFO  WelcomeMessenger:46 - Application finished successfully.
-2016-05-07 11:34:52 INFO  WelcomeMessenger:31 - Application started
-2016-05-07 11:34:52 INFO  WelcomeMessenger:88 - Location: US
-2016-05-07 11:34:52 INFO  WelcomeMessenger:81 - Current hour: 11
-2016-05-07 11:34:52 INFO  WelcomeMessenger:72 - WelcomeMessenger message: day
-2016-05-07 11:34:52 INFO  WelcomeMessenger:64 - WelcomeMessenger message converted to encoding: UTF-8
-2016-05-07 11:34:52 INFO  WelcomeMessenger:54 - Console data : Good day, World!
-2016-05-07 11:34:52 INFO  WelcomeMessenger:46 - Application finished successfully.
-2016-05-07 11:35:28 INFO  WelcomeMessenger:31 - Application started
-2016-05-07 11:35:28 INFO  WelcomeMessenger:88 - Location: US
-2016-05-07 11:35:28 INFO  WelcomeMessenger:81 - Current hour: 11
-2016-05-07 11:35:28 INFO  WelcomeMessenger:72 - WelcomeMessenger message: day
-2016-05-07 11:35:28 INFO  WelcomeMessenger:64 - WelcomeMessenger message converted to encoding: UTF-8
-2016-05-07 11:35:28 INFO  WelcomeMessenger:54 - Console data : Good day, World!
-2016-05-07 11:35:28 INFO  WelcomeMessenger:46 - Application finished successfully.
-2016-05-07 11:41:45 INFO  WelcomeMessenger:31 - Application started
-2016-05-07 11:41:45 INFO  WelcomeMessenger:88 - Location: US
-2016-05-07 11:41:45 INFO  WelcomeMessenger:81 - Current hour: 11
-2016-05-07 11:41:45 INFO  WelcomeMessenger:72 - WelcomeMessenger message: day
-2016-05-07 11:41:45 INFO  WelcomeMessenger:64 - WelcomeMessenger message converted to encoding: UTF-8
-2016-05-07 11:41:45 INFO  WelcomeMessenger:54 - Console data : Good day, World!
-2016-05-07 11:41:45 INFO  WelcomeMessenger:46 - Application finished successfully.
-2016-05-07 11:50:40 INFO  WelcomeMessenger:81 - Current hour: 11
-2016-05-07 11:50:40 INFO  WelcomeMessenger:88 - Location: US
-2016-05-07 11:51:15 INFO  WelcomeMessenger:81 - Current hour: 11
-2016-05-07 11:51:15 INFO  WelcomeMessenger:88 - Location: US
-2016-05-07 11:51:30 INFO  WelcomeMessenger:81 - Current hour: 11
-2016-05-07 11:51:30 INFO  WelcomeMessenger:88 - Location: US
-2016-05-07 11:53:46 INFO  WelcomeMessenger:81 - Current hour: 11
-2016-05-07 11:53:47 INFO  WelcomeMessenger:88 - Location: US
-2016-05-07 11:54:07 INFO  WelcomeMessenger:31 - Application started
-2016-05-07 11:54:07 INFO  WelcomeMessenger:88 - Location: US
-2016-05-07 11:54:07 INFO  WelcomeMessenger:81 - Current hour: 11
-2016-05-07 11:54:07 INFO  WelcomeMessenger:72 - WelcomeMessenger message: day
-2016-05-07 11:54:07 INFO  WelcomeMessenger:64 - WelcomeMessenger message converted to encoding: UTF-8
-2016-05-07 11:54:07 INFO  WelcomeMessenger:54 - Console data : Good day, World!
-2016-05-07 11:54:07 INFO  WelcomeMessenger:46 - Application finished successfully.
-2016-05-07 11:54:32 INFO  WelcomeMessenger:81 - Current hour: 11
-2016-05-07 11:54:32 INFO  WelcomeMessenger:88 - Location: US
-2016-05-07 11:54:44 INFO  WelcomeMessenger:81 - Current hour: 11
-2016-05-07 11:54:44 INFO  WelcomeMessenger:88 - Location: US
-2016-05-07 11:55:27 INFO  WelcomeMessenger:81 - Current hour: 11
-2016-05-07 11:55:27 INFO  WelcomeMessenger:88 - Location: US
-2016-12-14 12:24:19 INFO  WelcomeMessenger:31 - Application started
-2016-12-14 12:24:19 INFO  WelcomeMessenger:88 - Location: UA
-2016-12-14 12:24:19 INFO  WelcomeMessenger:81 - Current hour: 12
-2016-12-14 12:24:19 INFO  WelcomeMessenger:72 - WelcomeMessenger message: day
-2016-12-14 12:24:19 INFO  WelcomeMessenger:64 - WelcomeMessenger message converted to encoding: UTF-8
-2016-12-14 12:24:19 INFO  WelcomeMessenger:54 - Console data : Good day, World!
-2016-12-14 12:24:19 INFO  WelcomeMessenger:46 - Application finished successfully.
-2016-12-14 12:50:14 INFO  WelcomeMessenger:31 - Application started
-2016-12-14 12:50:14 INFO  WelcomeMessenger:88 - Location: UA
-2016-12-14 12:50:14 INFO  WelcomeMessenger:81 - Current hour: 12
-2016-12-14 12:50:14 INFO  WelcomeMessenger:72 - WelcomeMessenger message: day
-2016-12-14 12:50:14 INFO  WelcomeMessenger:64 - WelcomeMessenger message converted to encoding: UTF-8
-2016-12-14 12:50:14 INFO  WelcomeMessenger:54 - Console data : Good day, World!
-2016-12-14 12:50:14 INFO  WelcomeMessenger:46 - Application finished successfully.
-2016-12-14 13:53:25 INFO  WelcomeMessenger:31 - Application started
-2016-12-14 13:53:25 INFO  WelcomeMessenger:88 - Location: UA
-2016-12-14 13:53:25 INFO  WelcomeMessenger:81 - Current hour: 13
-2016-12-14 13:53:25 INFO  WelcomeMessenger:72 - WelcomeMessenger message: day
-2016-12-14 13:53:25 INFO  WelcomeMessenger:64 - WelcomeMessenger message converted to encoding: UTF-8
-2016-12-14 13:53:25 INFO  WelcomeMessenger:54 - Console data : Good day, World!
-2016-12-14 13:53:25 INFO  WelcomeMessenger:46 - Application finished successfully.
-2016-12-14 13:54:39 INFO  WelcomeMessenger:31 - Application started
-2016-12-14 13:54:39 INFO  WelcomeMessenger:89 - Location: RU
-2016-12-14 13:54:39 INFO  WelcomeMessenger:81 - Current hour: 13
-2016-12-14 13:54:39 INFO  WelcomeMessenger:72 - WelcomeMessenger message: day
-2016-12-14 13:54:39 INFO  WelcomeMessenger:64 - WelcomeMessenger message converted to encoding: UTF-8
-2016-12-14 13:54:39 INFO  WelcomeMessenger:54 - Console data : Доброй день, мир!
-2016-12-14 13:54:39 INFO  WelcomeMessenger:46 - Application finished successfully.
-2016-12-14 13:57:33 INFO  WelcomeMessenger:81 - Current hour: 13
-2016-12-14 13:57:33 INFO  WelcomeMessenger:88 - Location: UA
-2016-12-14 13:11:51 INFO  WelcomeMessenger:81 - Current hour: 13
-2016-12-14 13:11:51 INFO  WelcomeMessenger:88 - Location: UA
-2016-12-14 13:12:03 INFO  WelcomeMessenger:31 - Application started
-2016-12-14 13:12:03 INFO  WelcomeMessenger:88 - Location: UA
-2016-12-14 13:12:03 INFO  WelcomeMessenger:81 - Current hour: 13
-2016-12-14 13:12:03 INFO  WelcomeMessenger:72 - WelcomeMessenger message: day
-2016-12-14 13:12:03 INFO  WelcomeMessenger:64 - WelcomeMessenger message converted to encoding: UTF-8
-2016-12-14 13:12:03 INFO  WelcomeMessenger:54 - Console data : Good day, World!
-2016-12-14 13:12:03 INFO  WelcomeMessenger:46 - Application finished successfully.
+2016-05-07 11:29:11 INFO  MessengerRun:31 - Application started
+2016-05-07 11:29:11 INFO  MessengerRun:88 - Location: US
+2016-05-07 11:29:11 INFO  MessengerRun:81 - Current hour: 11
+2016-05-07 11:29:11 INFO  MessengerRun:72 - MessengerRun message: day
+2016-05-07 11:29:11 INFO  MessengerRun:64 - MessengerRun message converted to encoding: UTF-8
+2016-05-07 11:29:11 INFO  MessengerRun:54 - Console data : Good day, World!
+2016-05-07 11:29:11 INFO  MessengerRun:46 - Application finished successfully.
+2016-05-07 11:29:40 INFO  MessengerRun:31 - Application started
+2016-05-07 11:29:40 INFO  MessengerRun:88 - Location: US
+2016-05-07 11:29:40 INFO  MessengerRun:81 - Current hour: 11
+2016-05-07 11:29:40 INFO  MessengerRun:72 - MessengerRun message: day
+2016-05-07 11:29:40 INFO  MessengerRun:64 - MessengerRun message converted to encoding: UTF-8
+2016-05-07 11:29:40 INFO  MessengerRun:54 - Console data : Good day, World!
+2016-05-07 11:29:40 INFO  MessengerRun:46 - Application finished successfully.
+2016-05-07 11:34:52 INFO  MessengerRun:31 - Application started
+2016-05-07 11:34:52 INFO  MessengerRun:88 - Location: US
+2016-05-07 11:34:52 INFO  MessengerRun:81 - Current hour: 11
+2016-05-07 11:34:52 INFO  MessengerRun:72 - MessengerRun message: day
+2016-05-07 11:34:52 INFO  MessengerRun:64 - MessengerRun message converted to encoding: UTF-8
+2016-05-07 11:34:52 INFO  MessengerRun:54 - Console data : Good day, World!
+2016-05-07 11:34:52 INFO  MessengerRun:46 - Application finished successfully.
+2016-05-07 11:35:28 INFO  MessengerRun:31 - Application started
+2016-05-07 11:35:28 INFO  MessengerRun:88 - Location: US
+2016-05-07 11:35:28 INFO  MessengerRun:81 - Current hour: 11
+2016-05-07 11:35:28 INFO  MessengerRun:72 - MessengerRun message: day
+2016-05-07 11:35:28 INFO  MessengerRun:64 - MessengerRun message converted to encoding: UTF-8
+2016-05-07 11:35:28 INFO  MessengerRun:54 - Console data : Good day, World!
+2016-05-07 11:35:28 INFO  MessengerRun:46 - Application finished successfully.
+2016-05-07 11:41:45 INFO  MessengerRun:31 - Application started
+2016-05-07 11:41:45 INFO  MessengerRun:88 - Location: US
+2016-05-07 11:41:45 INFO  MessengerRun:81 - Current hour: 11
+2016-05-07 11:41:45 INFO  MessengerRun:72 - MessengerRun message: day
+2016-05-07 11:41:45 INFO  MessengerRun:64 - MessengerRun message converted to encoding: UTF-8
+2016-05-07 11:41:45 INFO  MessengerRun:54 - Console data : Good day, World!
+2016-05-07 11:41:45 INFO  MessengerRun:46 - Application finished successfully.
+2016-05-07 11:50:40 INFO  MessengerRun:81 - Current hour: 11
+2016-05-07 11:50:40 INFO  MessengerRun:88 - Location: US
+2016-05-07 11:51:15 INFO  MessengerRun:81 - Current hour: 11
+2016-05-07 11:51:15 INFO  MessengerRun:88 - Location: US
+2016-05-07 11:51:30 INFO  MessengerRun:81 - Current hour: 11
+2016-05-07 11:51:30 INFO  MessengerRun:88 - Location: US
+2016-05-07 11:53:46 INFO  MessengerRun:81 - Current hour: 11
+2016-05-07 11:53:47 INFO  MessengerRun:88 - Location: US
+2016-05-07 11:54:07 INFO  MessengerRun:31 - Application started
+2016-05-07 11:54:07 INFO  MessengerRun:88 - Location: US
+2016-05-07 11:54:07 INFO  MessengerRun:81 - Current hour: 11
+2016-05-07 11:54:07 INFO  MessengerRun:72 - MessengerRun message: day
+2016-05-07 11:54:07 INFO  MessengerRun:64 - MessengerRun message converted to encoding: UTF-8
+2016-05-07 11:54:07 INFO  MessengerRun:54 - Console data : Good day, World!
+2016-05-07 11:54:07 INFO  MessengerRun:46 - Application finished successfully.
+2016-05-07 11:54:32 INFO  MessengerRun:81 - Current hour: 11
+2016-05-07 11:54:32 INFO  MessengerRun:88 - Location: US
+2016-05-07 11:54:44 INFO  MessengerRun:81 - Current hour: 11
+2016-05-07 11:54:44 INFO  MessengerRun:88 - Location: US
+2016-05-07 11:55:27 INFO  MessengerRun:81 - Current hour: 11
+2016-05-07 11:55:27 INFO  MessengerRun:88 - Location: US
+2016-12-14 12:24:19 INFO  MessengerRun:31 - Application started
+2016-12-14 12:24:19 INFO  MessengerRun:88 - Location: UA
+2016-12-14 12:24:19 INFO  MessengerRun:81 - Current hour: 12
+2016-12-14 12:24:19 INFO  MessengerRun:72 - MessengerRun message: day
+2016-12-14 12:24:19 INFO  MessengerRun:64 - MessengerRun message converted to encoding: UTF-8
+2016-12-14 12:24:19 INFO  MessengerRun:54 - Console data : Good day, World!
+2016-12-14 12:24:19 INFO  MessengerRun:46 - Application finished successfully.
+2016-12-14 12:50:14 INFO  MessengerRun:31 - Application started
+2016-12-14 12:50:14 INFO  MessengerRun:88 - Location: UA
+2016-12-14 12:50:14 INFO  MessengerRun:81 - Current hour: 12
+2016-12-14 12:50:14 INFO  MessengerRun:72 - MessengerRun message: day
+2016-12-14 12:50:14 INFO  MessengerRun:64 - MessengerRun message converted to encoding: UTF-8
+2016-12-14 12:50:14 INFO  MessengerRun:54 - Console data : Good day, World!
+2016-12-14 12:50:14 INFO  MessengerRun:46 - Application finished successfully.
+2016-12-14 13:53:25 INFO  MessengerRun:31 - Application started
+2016-12-14 13:53:25 INFO  MessengerRun:88 - Location: UA
+2016-12-14 13:53:25 INFO  MessengerRun:81 - Current hour: 13
+2016-12-14 13:53:25 INFO  MessengerRun:72 - MessengerRun message: day
+2016-12-14 13:53:25 INFO  MessengerRun:64 - MessengerRun message converted to encoding: UTF-8
+2016-12-14 13:53:25 INFO  MessengerRun:54 - Console data : Good day, World!
+2016-12-14 13:53:25 INFO  MessengerRun:46 - Application finished successfully.
+2016-12-14 13:54:39 INFO  MessengerRun:31 - Application started
+2016-12-14 13:54:39 INFO  MessengerRun:89 - Location: RU
+2016-12-14 13:54:39 INFO  MessengerRun:81 - Current hour: 13
+2016-12-14 13:54:39 INFO  MessengerRun:72 - MessengerRun message: day
+2016-12-14 13:54:39 INFO  MessengerRun:64 - MessengerRun message converted to encoding: UTF-8
+2016-12-14 13:54:39 INFO  MessengerRun:54 - Console data : Доброй день, мир!
+2016-12-14 13:54:39 INFO  MessengerRun:46 - Application finished successfully.
+2016-12-14 13:57:33 INFO  MessengerRun:81 - Current hour: 13
+2016-12-14 13:57:33 INFO  MessengerRun:88 - Location: UA
+2016-12-14 13:11:51 INFO  MessengerRun:81 - Current hour: 13
+2016-12-14 13:11:51 INFO  MessengerRun:88 - Location: UA
+2016-12-14 13:12:03 INFO  MessengerRun:31 - Application started
+2016-12-14 13:12:03 INFO  MessengerRun:88 - Location: UA
+2016-12-14 13:12:03 INFO  MessengerRun:81 - Current hour: 13
+2016-12-14 13:12:03 INFO  MessengerRun:72 - MessengerRun message: day
+2016-12-14 13:12:03 INFO  MessengerRun:64 - MessengerRun message converted to encoding: UTF-8
+2016-12-14 13:12:03 INFO  MessengerRun:54 - Console data : Good day, World!
+2016-12-14 13:12:03 INFO  MessengerRun:46 - Application finished successfully.
