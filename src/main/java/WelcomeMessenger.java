@@ -30,7 +30,7 @@ import java.util.ResourceBundle;
         try {
             logger.info("Application started");
 
-            ResourceBundle bundle = getWelcomeMessageResource(MESSAGE_RESOURCES_NAME);
+            ResourceBundle bundle = getMessageResource(MESSAGE_RESOURCES_NAME);
             String bundleKey = getWelcomeMessage();
             printWelcomeMessage(bundle, bundleKey);
 
@@ -85,16 +85,19 @@ import java.util.ResourceBundle;
         return currentTime;
     }
 
-    public static ResourceBundle getWelcomeMessageResource(String bundleName) {
-        Locale locate = getSystemDefaultLocate();
-        ResourceBundle bundle = ResourceBundle.getBundle(bundleName, locate);
-        logger.info("Location: " + locate.getCountry());
-        return bundle;
+    //Receives current local hour
+    public static ResourceBundle getMessageResource(String bundleName){
+        Locale locale = Locale.getDefault();
+        ResourceBundle resourceBundle = ResourceBundle.getBundle(bundleName, locale);
+
+        logger.info("Set location: " + locale.getCountry());
+
+        return resourceBundle;
     }
 
-    private static Locale getSystemDefaultLocate() {
+    /*private static Locale getSystemDefaultLocate() {
         return Locale.getDefault();
-    }
+    }*/
 
     //Receives phase of day
     public static String getPhaseOfDay(Integer currentTime){
