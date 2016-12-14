@@ -2,4 +2,4 @@
 --------------------------------------------------------------------------------------------------
 Travis
 
-SEE https://travis-ci.org/Efficeon/TestMessenger/ ![My image](https://travis-ci.org/Efficeon/TestMessenger.svg?branch=master)
+[![Build Status](https://travis-ci.org/Efficeon/TestMessenger.svg?branch=master)](https://travis-ci.org/Efficeon/TestMessenger)
