@@ -16,30 +16,32 @@ import java.util.ResourceBundle;
  public class WelcomeMessenger {
 
     //Message settings
-    public static final String MESSAGE_RESOURCES_NAME = "WelcomeMessages";
-    public static final String ENCODING = "UTF-8";
-    public static final String WELCOME_MESSAGE_NIGHT = "night";
+    public static final String LOCALE_RESOURCES_NAME = "WelcomeMessages";
     public static final String WELCOME_MESSAGE_MORNING = "morning";
     public static final String WELCOME_MESSAGE_DAY = "day";
     public static final String WELCOME_MESSAGE_EVENING = "evening";
+    public static final String WELCOME_MESSAGE_NIGHT = "night";
+
+    public static final String ENCODING = "UTF-8";
 
     //Logger
     final static Logger logger = Logger.getLogger(WelcomeMessenger.class);
 
     public static void main(String[] args) {
-        try {
-            logger.info("Application started");
 
-            ResourceBundle bundle = getMessageResource(MESSAGE_RESOURCES_NAME);
+        try {
+            logger.info("Application run");
+
+            ResourceBundle resourceBundle = getMessageResource(LOCALE_RESOURCES_NAME);
             String bundleKey = getWelcomeMessage();
-            printWelcomeMessage(bundle, bundleKey);
+            printWelcomeMessage(resourceBundle, bundleKey);
 
         } catch (UnsupportedEncodingException e) {
-            System.out.println("We have encoding error.");
+            System.out.println("You have encoding error.");
             logger.error("Unknown encoding", e);
 
         } catch (Exception e) {
-            System.out.println("We have critical error. Execution stopped.");
+            System.out.println("You have critical error. Execution stopped.");
             logger.error("Some exception", e);
         }
 

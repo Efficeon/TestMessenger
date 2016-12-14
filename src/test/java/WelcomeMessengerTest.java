@@ -31,9 +31,9 @@ public class WelcomeMessengerTest {
     @Test
     public void shouldGetGreetingMessageResourceByLocale(){
         Locale ru = new Locale("ru", "RU");
-        ResourceBundle bundle = ResourceBundle.getBundle(WelcomeMessenger.MESSAGE_RESOURCES_NAME, ru);
+        ResourceBundle bundle = ResourceBundle.getBundle(WelcomeMessenger.LOCALE_RESOURCES_NAME, ru);
 
-        ResourceBundle bundleOriginal = WelcomeMessenger.getMessageResource(WelcomeMessenger.MESSAGE_RESOURCES_NAME);
+        ResourceBundle bundleOriginal = WelcomeMessenger.getMessageResource(WelcomeMessenger.LOCALE_RESOURCES_NAME);
         assertThat(bundle, is(not(bundleOriginal)));
     }
 
