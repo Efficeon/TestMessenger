@@ -7,7 +7,10 @@ import static junit.framework.TestCase.assertEquals;
 import static org.hamcrest.core.Is.is;
 import static org.hamcrest.core.IsNot.not;
 import static org.junit.Assert.assertThat;
-
+/**
+ * Main class of definition phase of the day and print message that defined for this time.
+ * @author Leonid Dubravsky
+ */
 
 public class WelcomeMessengerTest {
     @Test

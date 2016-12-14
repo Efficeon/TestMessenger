@@ -41,7 +41,7 @@ import java.util.ResourceBundle;
             logger.error("Unknown encoding", e);
 
         } catch (Exception e) {
-            System.out.println("You have critical error. Execution stopped.");
+            System.out.println("You have error. Execution stopped.");
             logger.error("Some exception", e);
         }
 
