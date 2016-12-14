@@ -1,8 +1,4 @@
-#This is simple test task for 'Some' company.
-
-Just use command: 'mvn exec:java'
-Use command: 'mvn test' to run application's tests.
-
+#This is test task. 
 --------------------------------------------------------------------------------------------------
 Travis
 
