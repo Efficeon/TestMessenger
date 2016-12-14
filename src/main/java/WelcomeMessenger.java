@@ -46,13 +46,13 @@ import java.util.ResourceBundle;
         logger.info("Application finished successfully.");
     }
 
-    private static void printWelcomeMessage(ResourceBundle bundle, String bundleKey) throws UnsupportedEncodingException {
-        String initialValue = getExactMessage(bundle, bundleKey);
-        String convertedValue = convertMessage(initialValue, ENCODING);
+    //Print message to console
+    private static void printWelcomeMessage(ResourceBundle resourceBundle, String bundleKey) throws UnsupportedEncodingException {
+        String welcomeMessage = getExactMessage(resourceBundle, bundleKey);
+        String convertedMessage = convertMessage(welcomeMessage, ENCODING);
 
-        System.out.println(convertedValue + "\n");
-        logger.info("Console data : " + convertedValue);
-
+        System.out.println(welcomeMessage + "\n");
+        logger.info("Print to console: " + convertedMessage);
     }
 
     //Return real time
