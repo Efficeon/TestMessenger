@@ -45,6 +45,6 @@ public class WelcomeMessengerTest {
 
     @Test(expected = UnsupportedEncodingException.class)
     public void shouldConvertValue() throws UnsupportedEncodingException {
-        WelcomeMessenger.convertValue("", "UTF-8859");
+        WelcomeMessenger.convertMessage("", "UTF-8859");
     }
 }

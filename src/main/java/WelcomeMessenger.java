@@ -48,20 +48,22 @@ import java.util.ResourceBundle;
 
     private static void printWelcomeMessage(ResourceBundle bundle, String bundleKey) throws UnsupportedEncodingException {
         String initialValue = getExactMessage(bundle, bundleKey);
-        String convertedValue = convertValue(initialValue, ENCODING);
+        String convertedValue = convertMessage(initialValue, ENCODING);
 
         System.out.println(convertedValue + "\n");
         logger.info("Console data : " + convertedValue);
 
     }
 
-    private static String getExactMessage(ResourceBundle bundle, String bundleKey) {
-        return bundle.getString(bundleKey);
+    //Return real time
+    private static String getExactMessage(ResourceBundle resourceBundle, String bundleKey) {
+        return resourceBundle.getString(bundleKey);
     }
 
-    static String convertValue(String value, String encoding) throws UnsupportedEncodingException {
-        String text = new String(value.getBytes("ISO-8859-1"), encoding);
-        logger.info("WelcomeMessenger message converted to encoding: " + encoding);
+    //Message converted to encoding UTF-8
+    static String convertMessage(String welcomeMessage, String encoding) throws UnsupportedEncodingException {
+        String text = new String(welcomeMessage.getBytes("ISO-8859-1"), encoding);
+        logger.info("Welcome message converted to encoding: " + encoding);
         return text;
     }
 
@@ -94,10 +96,6 @@ import java.util.ResourceBundle;
 
         return resourceBundle;
     }
-
-    /*private static Locale getSystemDefaultLocate() {
-        return Locale.getDefault();
-    }*/
 
     //Receives phase of day
     public static String getPhaseOfDay(Integer currentTime){
