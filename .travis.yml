@@ -3,4 +3,4 @@ jdk:
   - oraclejdk8
   - oraclejdk7
 
-script: mvn exec:java
+script: mvn clean verify
