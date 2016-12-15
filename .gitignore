@@ -3,6 +3,7 @@
  *.log
  *.pdf
  *.xls
+ *.iml
 
 # Packages
  *.jar
