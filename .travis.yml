@@ -4,4 +4,3 @@ jdk:
   - oraclejdk7
 
 script: mvn exec:java
-    script: mvn test -Dtest=MessengerRunTest.java
